@@ -52,13 +52,14 @@ body {
     text-align: center;
     height: 35px;
     opacity: 30%;
+    padding-bottom: 50px;
 }
 
 .wrapper .input-box {
     width: 100%;
     height: 40px;
-    margin: 20px 0;
-    padding: 0 30px 0 30px;
+    margin: 5px 0;
+    padding: 0 50px 0 50px;
 }
 
 .input-box input {
@@ -68,10 +69,10 @@ body {
     border: none;
     outline: none;
     border: 1px solid gray;
-    border-radius: 5px;
+    border-radius: 2px;
     font-size: 16px;
     color: black;
-    padding: 20px 45px 20px 20px;
+    padding: 20px 100px 20px 20px;
 }
 
 .input-box input::placeholder {
@@ -83,11 +84,11 @@ body {
     justify-content: space-between;
     font-size:16px;
     margin: 15px 0 25px;
-    padding: 0 30px 0 30px;
+    padding: 0 50px 0 50px;
 }
 
 .remember-forgot label{
-    padding: 9px;
+    padding-top: 9px;
 }
 
 .remember-forgot label input {
@@ -113,7 +114,7 @@ body {
 }
 
 .register-link p {
-    margin: 15px 0 25px;
+    margin: 15px 0 35px;
 }
 
 .wrapper .register-link p a {
@@ -130,13 +131,14 @@ body {
     display: flex;
     width: 100%;
     font-size: 16px;
-    justify-content:space-around;
+    justify-content:center;
     background-color: #F9FAFC;
+    padding: 15px 30px 0 30px;
 }
 
 .social-connect p {
-    padding: 5px 30px 0 30px;
     color: #C0CFD8;
+    padding-top: 5px;
 }
 
 .social-connect .facebook-logo {
@@ -147,6 +149,7 @@ body {
     overflow: hidden;
     border-radius: 50%;
     background-position:50% 50%;
+    margin: 0 30px 0 30px;
 }
 
 .social-connect .facebook-logo img {
