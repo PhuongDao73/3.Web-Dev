@@ -85,18 +85,21 @@ body {
     margin: 15px 0 15px;
 }
 
+.remember-forgot label{
+    padding: 9px;
+}
+
 .remember-forgot label input {
     margin-right: 5px;
 }
 
-.wrapper .btn {
+.remember-forgot .btn {
     width: 30%;
     height: 40px;
     background-color: #F7847F;
     border: none;
     outline: none;
     border-radius: 3px;
-    margin: 0 0 15px;
     font-size: 16px;
     color: white;
     font-weight: 600;
@@ -119,5 +122,11 @@ body {
     text-decoration: underline;
 }
 
-
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BBCCD5;
+    
+}
     

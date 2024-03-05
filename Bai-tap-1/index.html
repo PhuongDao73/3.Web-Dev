@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Forms Review</title>
+    <title>Sign In - Exercise 1</title>
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="nhCAXKRl">
+    </script>
     <div class="wrapper">
       <form action="./submission.html">
       <div class="circular--portrait">
@@ -23,16 +26,17 @@
         <div class="input-box">
           <input type="password" name="password" id="password" placeholder="Password" required>
         </div>
-        <span class="remember-forgot">
+        <div class="remember-forgot">
           <label><input type="checkbox" name="remember-me" id="remember-me"> Remember me</label>
-        </span>
-        <button class="btn" type="submit">SIGN IN</button>
+          <button class="btn" type="submit">SIGN IN</button>
+        </div>
         
         <div class="register-link">
           <p>Don't have an account? <a href="#">Register</a></p>
-        </div>
-        <hr>
       </form>
     </div>
   </body>
+  <footer>
+    
+  </footer>
 </html>
